@@ -12,16 +12,18 @@ How to use:
 <kc-form-login-email></kc-form-login-email>
 
 Events:
+
 (formSubmit)
-Triggers when the user clicks on 'Submit' button
-Return the following object
-{
+
+Triggers when the user clicks on 'Submit' button. Returns the following object:
+
+`{
     valid: boolean, // represent is the form is valid or not
     value: {            //tEmailRegistrationFormData
         email:  string,      //the email field value
         password: string,   //the password field value
     }
-}
+}`
 
 
 version tracking:
